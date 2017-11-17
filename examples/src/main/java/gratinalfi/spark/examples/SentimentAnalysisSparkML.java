@@ -1,4 +1,5 @@
 package gratinalfi.spark.examples;
+
 import java.io.IOException;
 import java.io.Serializable;
 

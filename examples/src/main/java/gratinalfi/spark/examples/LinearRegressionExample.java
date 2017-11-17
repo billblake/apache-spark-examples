@@ -1,14 +1,9 @@
 package gratinalfi.spark.examples;
-import java.io.Serializable;
 import java.util.Arrays;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.SparkContext;
 import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.sql.SparkSession;
-
-import scala.Tuple2;
-
 import org.apache.spark.mllib.evaluation.RegressionMetrics;
 import org.apache.spark.mllib.linalg.Vectors;
 import org.apache.spark.mllib.regression.LabeledPoint;
@@ -16,6 +11,9 @@ import org.apache.spark.mllib.regression.LinearRegressionModel;
 import org.apache.spark.mllib.regression.LinearRegressionWithSGD;
 import org.apache.spark.rdd.DoubleRDDFunctions;
 import org.apache.spark.rdd.RDD;
+import org.apache.spark.sql.SparkSession;
+
+import scala.Tuple2;
 
 public class LinearRegressionExample {
 

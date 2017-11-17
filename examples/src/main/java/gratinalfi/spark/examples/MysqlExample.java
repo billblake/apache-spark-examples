@@ -13,6 +13,7 @@ import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.api.java.function.Function;
 import org.apache.spark.rdd.JdbcRDD;
+
 import scala.reflect.ClassManifestFactory$;
 import scala.runtime.AbstractFunction0;
 import scala.runtime.AbstractFunction1;
